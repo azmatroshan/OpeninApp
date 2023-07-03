@@ -1,0 +1,111 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/link_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginBottom="12dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/item_above_bg"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/link_image"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/image_stroke"
+            android:contentDescription="@string/links"
+            android:src="@drawable/ic_links"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="12dp"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="2dp">
+
+                <TextView
+                    android:id="@+id/link_name"
+                    android:layout_width="0dp"
+                    android:textColor="@color/black"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="14sp"
+                    android:ellipsize="marquee"
+                    android:text="@string/sample_link_name"
+                    android:fontFamily="@font/figtree_regular"
+                    android:singleLine="true" />
+
+                <TextView
+                    android:id="@+id/link_clicks"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:layout_marginStart="24dp"
+                    android:textSize="14sp"
+                    android:text="@string/_0"
+                    android:fontFamily="@font/figtree_semi_bold"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/date_added"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/date"
+                    android:fontFamily="@font/figtree_regular"
+                    android:textColor="@color/wish"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/clicks"
+                    android:fontFamily="@font/figtree_regular"
+                    android:textColor="@color/wish"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingHorizontal="12dp"
+        android:gravity="center"
+        android:paddingVertical="8dp"
+        android:background="@drawable/item_below_bg">
+
+        <TextView
+            android:id="@+id/link"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/link_color"
+            android:textSize="14sp"
+            android:text="@string/sample_link_name"
+            android:fontFamily="@font/figtree_regular"/>
+
+        <ImageView
+            android:id="@+id/copy_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:contentDescription="@string/copy_link"
+            android:src="@drawable/ic_copy_link"
+            android:foreground="?android:attr/selectableItemBackground"/>
+    </LinearLayout>
+</LinearLayout>

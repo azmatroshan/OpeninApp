@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">OpeninApp</string>
+    <string name="links">Links</string>
+    <string name="courses">Courses</string>
+    <string name="campaigns">Campaigns</string>
+    <string name="profile">Profile</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="setting">setting</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add">add</string>
+    <string name="hello">Hello</string>
+    <string name="good_morning">Good morning</string>
+    <string name="good_afternoon">Good afternoon</string>
+    <string name="good_evening">Good evening</string>
+    <string name="user">Ajay Manva</string>
+    <string name="hi_emoji">hi emoji</string>
+    <string name="today_s_clicks">Today\'s clicks</string>
+    <string name="_0">0</string>
+    <string name="na">N/A</string>
+    <string name="top_location">Top location</string>
+    <string name="top_sources">Top source</string>
+    <string name="best_time">Best time</string>
+    <string name="view_analytics">View Analytics</string>
+    <string name="top_links">Top Links</string>
+    <string name="recent_links">Recent Links</string>
+    <string name="search_links">search links</string>
+    <string name="talk_us">Talk with us</string>
+    <string name="faq">Frequently Asked Questions</string>
+    <string name="view_links">View all Links</string>
+    <string name="overview">Overview</string>
+    <string name="clicks">Clicks</string>
+    <string name="copy_link">copy link</string>
+    <string name="sample_link_name">sample Link name</string>
+    <string name="date">22 Aug 2022</string>
+    <string name="coming_soon">Coming Soon!</string>
+</resources>
